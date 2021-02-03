@@ -1,0 +1,67 @@
+
+.header_top {
+  width: 100%;
+  height: 50px;
+  background-color: #4a55a7;
+  border: 1px solid black;
+}
+
+.jumbo {
+  position: relative;
+  background-color: #65c59d;
+  width: 100%;
+  height: 300px;
+}
+.jumbo_text {
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.text_portfolio,
+.text_contact{
+  height: 50px;
+  text-align: center;
+  margin: 20px 0 10px
+}
+
+.table {
+  width: 80%;
+}
+
+.table .row .col-lg-4 {
+  height: 100px;
+  float: left;
+}
+
+.card {
+  width: 33.33%;
+  border: 1px solid black;
+}
+
+.about {
+  width: 100%;
+  height: 300px;
+  background-color: #65c59d;
+}
+
+.text_contact {
+  margin-top: 50px;
+}
+
+.text_80 {
+  width: 80%;
+}
+
+.text_left,
+.text_right {
+  text-align: center;
+  float: left;
+  padding: 20px 50px;
+  margin: 0 20px;
+  background-color: #FAFAFA;
+}
