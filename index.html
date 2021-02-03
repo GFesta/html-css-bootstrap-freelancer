@@ -11,8 +11,8 @@
   <body>
     <!-- inizio header -->
     <header>
-      <div class="container">
-        <div class="row header_top col-lg-12">
+      <div class="container header_bg">
+        <div class="row header_top">
           <div class="top_left col-lg-6"></div>
           <div class="top_right col-lg-6"></div>
         </div>
@@ -34,40 +34,80 @@
           <div class="text_portfolio">ciao</div>
         </div>
         <div class="table container">
-          <div class="row cards">
-            <div class="card col-lg-4 col-xs-12"></div>
-            <div class="card col-lg-4 col-xs-12"></div>
-            <div class="card col-lg-4 col-xs-12"></div>
-            <div class="card col-lg-4 col-xs-12"></div>
-            <div class="card col-lg-4 col-xs-12"></div>
-            <div class="card col-lg-4 col-xs-12"></div>
+          <div class="row">
+            <div class="card card_1 col-lg-4 col-xs-12"></div>
+            <div class="card card_2 col-lg-4 col-xs-12"></div>
+            <div class="card card_3 col-lg-4 col-xs-12"></div>
+            <div class="card card_4 col-lg-4 col-xs-12"></div>
+            <div class="card card_5 col-lg-4 col-xs-12"></div>
+            <div class="card card_6 col-lg-4 col-xs-12"></div>
           </div>
         </div>
       </section>
-      <section class="container">
-        <div class="text-center col-lg-12"></div>
-        <div class="col-lg-6"></div>
-        <div class="col-lg-6"></div>
-      </section>
       <section class="about">
-        <div class="container contact">
+        <div class="container">
           <div class="text_contact">ciao</div>
         </div>
-        <div class="container">
-          <div class="row text_80">
-            <div class="col-lg-6">
+        <div class="container col-2">
+          <div class="row">
+            <div class="col_left col-sm-6 col-md-4 col-xs-12">
               <div class="text_left"><p>Lorem ipsum dolor sit amet.</p></div>
             </div>
-            <div class="col-lg-6">
+            <div class="col_right col-sm-6 col-md-4 col-xs-12">
               <div class="text_right"><p>Lorem ipsum dolor sit amet.</p></div>
             </div>
           </div>
+          <div class="row col-lg-12">
+            <button type="button" class="btn btn-default">Download</button>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="container">
+          <div class="text_contact">
+            <h1>CONTACT ME</h1>
+          </div>
+          <div class="container">
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="name" class="form-control"name="name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" class="form-control"name="email">
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="phone" class="form-control"name="phone">
+              </div>
+              <textarea class="form-control" rows="3">Message</textarea>
+            </form>
+            </div>
         </div>
       </section>
     </main>
     <!-- fine main -->
     <footer>
-
+      <div class="container-fluid footer_top">
+        <div class="row col-3">
+          <div class="col-lg-4 col-md-4 col-xs-12">
+            <h2>LOCATION</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-xs-12">
+            <h2>AROUND</h2>
+            <a href="#" class=""></a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-xs-12">
+            <h2>ABOUT FREELANCE</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid footer_bottom">
+        <p>Copyrigth © Your WebSite 2019</p>
+      </div>
     </footer>
 
   </body>
