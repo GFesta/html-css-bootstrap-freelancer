@@ -74,14 +74,13 @@ p {
 }
 
 .box {
-  border: 1px solid black;
-  border-radius: 5px;
   padding: 20px 0;
   margin: 5px;
 }
 
 .box img {
-  width: 100%
+  width: 100%;
+  border-radius: 10%;
 }
 /* fine section portfolio */
 
@@ -92,29 +91,26 @@ p {
   background-color: #65c59d;
 }
 
-.text_contact {
-  margin-top: 50px;
-}
-
-.col-2 {
-  text-align: center;
-}
-
-.col_left,
-.col_right {
+.left_text,
+.right_text {
   width: 50%;
-}
-
-
-.text_left,
-.text_right {
-  padding: 20px 50px;
+  padding: 20px 100px;
 }
 /* fine section about */
 
 /* section contact- */
-.btn {
-  background-color:#65c59d;
+.text_contact {
+  margin-top: 50px;
+}
+
+.btn_green {
+  background-color: #65c59d;
+  border-color: white;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+
 }
 
 /* fine section contact */
@@ -135,6 +131,21 @@ p {
   text-align: center;
   color: white;
   margin-top: 35px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
 }
 /* fine footer */
 
