@@ -114,7 +114,9 @@ p {
   padding: 12px 30px;
   cursor: pointer;
   font-size: 20px;
+  margin-top: 10px;
 }
+
 .margin {
   margin: 10px;
 }
